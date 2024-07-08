@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'popins' sans-serif;
+}
+.container{
+    background-image: url(./image/s.bg.jfif);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.header{
+    background-color: white;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed; */
+    /* width: 100%; */
+    
+}
+.logo{
+    margin-left: 8%;
+    margin-top: 10px;
+    
+}
+.logo span{
+    color: rgb(3, 3, 132);
+}
+.navbar li{
+    display: inline-block;
+    padding: 18px;
+    margin-top: 10px;
+    font-size: 18px;
+
+}
+.navbar{
+    margin-right: 8%;
+}
+.btn{
+    padding: 10px;
+    color: rgb(3, 3, 132);      
+    
+}
+.navbar li:hover{
+    color: rgb(198, 198, 4);
+    cursor: pointer;
+}
+.main-content{
+    text-align: center;
+    margin-top: 10%;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+.main-content p{
+    line-height: 25px;
+    margin-top: 10px;
+}
+.btn1{
+    padding: 10px 25px;
+    background-color:rgb(3, 3, 132); 
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 20px;
+}
+.btn2{
+    padding: 10px 25px;
+    background-color:rgb(198, 198, 4); 
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 20px;
+}
+/* container2 */
+.container2{
+    margin: 20px 20px;
+}
+.container2 h1{
+    text-align: center;
+}
+.featuree{
+width: 300px;
+height: 150px;
+background-color:rgb(240, 237, 237);
+padding: 15px;
+margin: 10px;
+line-height: 25px;
+
+}
+.features{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.featuree h3{
+color:rgb(3, 3, 132); 
+}
+span{
+    color:rgb(3, 3, 132);
+}
+/* .container3 */
+.container3{
+    margin-top: 30px;
+}
+.container3 h1{
+    text-align: center;
+
+}
+.popular-courses{
+    width: 300px;
+    height: 350px;
+    background-color:rgb(240, 237, 237);
+    margin: 10px;
+    
+}
+.popular-courses img{
+    width: 300px;
+    height: 250px;
+}
+.popular-courses span{
+    padding: 10px;
+    /* margin-top: 50px; */
+}
+.popular-courses h3{
+    padding: 10px;
+}
+.courses{
+display: flex;
+justify-content: center;
+margin-top: 10px;
+}
+/* container4 */
+.container4{
+    background-image: url(./image/re.bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    /* margin-top: 10%; */
+
+}
+.register{
+display: flex;
+justify-content:space-around;
+padding-top: 10%;
+
+}
+.account{
+    background-color: #fff;
+    height: 300px;
+    padding: 20px 20px;
+    line-height: 50px;
+    border-radius: 10px;
+
+}
+.account input{
+    padding: 7px;
+    width: 300px;
+}
+.account .btn{
+    padding: 10px 20px;
+    background-color:rgb(198, 198, 4);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+.register-date{
+    color: #fff;
+    
+}
+.register-date p{
+    padding: 10px;
+}
+/* container5 */
+.container5{
+    padding-top: 30px;
+}
+.container5 h1{
+    text-align: center;
+    /* margin-top: 20px; */
+}
+.experts{
+    background-color:rgb(240, 237, 237);
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    
+}
+.experts img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.community-experts{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+/* container6 */
+.container6{
+   background-color:   rgb(1, 1, 78);; 
+}
+.footer{
+    display: flex;
+    justify-content: center;
+   padding-top: 50px;
+   
+   
+}
+.footer h2{
+    color: #fff;
+} 
+.footer li{
+    list-style: none;
+    padding: 10px;
+    font-size: 18px;
+    color: rgb(169, 177, 181);
+
+
+}
+.container6 .para{
+    margin-left: 13%;
+    color: #fff;
+    margin-left: 12%;
+    padding-bottom: 40px;
+    padding: 20px;
+}
+.footer1{
+    margin: 10px;
+}
+#new p{
+    padding: 10px;
+}
+#new input{
+    padding: 10px;
+}
+#new .btnn{
+    padding: 10px;
+    background-color:rgb(198, 198, 4);
+    color: #fff;
+}
+
+
